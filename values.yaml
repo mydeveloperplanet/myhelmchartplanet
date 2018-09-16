@@ -5,16 +5,15 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: stable
+  repository: mydeveloperplanet/mykubernetesplanet
+  tag: 0.0.2-SNAPSHOT
   pullPolicy: IfNotPresent
 
 nameOverride: ""
 fullnameOverride: ""
 
 service:
-  type: ClusterIP
-  port: 80
+  type: NodePort
 
 ingress:
   enabled: false
