@@ -1,1 +1,4 @@
-"# myhelmchartplanet"
+# myhelmchartplanet
+Helm Chart example project
+
+The corresponding blog post can be found here: https://mydeveloperplanet.com/2018/10/03/create-install-upgrade-rollback-a-helm-chart-part-1/
